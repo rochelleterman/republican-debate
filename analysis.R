@@ -4,7 +4,7 @@ library(ggplot2)
 rm(list=ls())
 
 # load
-transcript <- read.csv("/Users/rterman/Dropbox/berkeley/Dissertation/Data\ and\ Analyais/Git\ Repos/republican-debate/transcript.csv")
+transcript <- read.csv("~/Dropbox/berkeley/Dissertation/Data\ and\ Analyais/Git\ Repos/republican-debate/transcript.csv")
 
 # there's a typo
 transcript$speaker[transcript$speaker=="WALLCE"] <- "WALLACE"
